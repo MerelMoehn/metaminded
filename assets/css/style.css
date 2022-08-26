@@ -36,6 +36,8 @@ h1, h2 {
 
 #menu, #logo {
     line-height: 100px;
+    position: relative;
+    z-index: 1;
 }
 
 #menu li {
@@ -69,6 +71,7 @@ h1, h2 {
     height: 750px;
     width: 100%;
     background: url(../images/hero_image_08_medium.jpg) no-repeat center center;
+    position: relative;
 }
 
 #cover-text {
@@ -84,6 +87,6 @@ h1, h2 {
     padding-top: 40px;
 
     background: rgba(255, 255, 255, .4);
-    bottom: 1px;
     position: absolute;
+    bottom: 0;
 }
