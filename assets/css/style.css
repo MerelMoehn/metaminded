@@ -95,3 +95,7 @@ h1, h2 {
     position: absolute;
     bottom: 0;
 }
+
+#definition {
+    height: 750px;
+}
