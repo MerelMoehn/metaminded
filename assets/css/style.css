@@ -9,16 +9,14 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
-    color: #9d9db0;
+    color: black;
 }
 
 /* headings and logo */
-
 h1, h2 {
     font-family: 'Playfair Display', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: white;
 }
 
 #logo {
@@ -27,16 +25,18 @@ h1, h2 {
     margin-left: 20px;
 }
 
+
 /* navigation links */
 #menu {
     font-size: 120%;
     letter-spacing: 4px;
-    color: white;
 }
 
 #menu, #logo {
+    color: white;
     line-height: 100px;
     position: relative;
+    top: 0;
     z-index: 1;
 }
 
@@ -67,11 +67,15 @@ h1, h2 {
     color: black;
 }
 
+#image_overlay{
+    position: relative;
+}
+
 #hero-image {
     height: 750px;
     width: 100%;
     background: url(../images/hero_image_08_medium.jpg) no-repeat center center;
-    position: relative;
+    overflow: none;
 }
 
 #cover-text {
@@ -80,11 +84,12 @@ h1, h2 {
     font-family: 'Source Sans Pro', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 
     width: 100%;
     height: 200px;
-
-    padding-top: 40px;
 
     background: rgba(255, 255, 255, .4);
     position: absolute;
