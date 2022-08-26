@@ -9,7 +9,7 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
-    color: black;
+    color: #9d9db0;
 }
 
 /* headings and logo */
@@ -18,10 +18,50 @@ h1, h2 {
     font-family: 'Playfair Display', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: black;
+    color: white;
 }
 
 #logo {
     float: left;
     font-size: 310%;
+    margin-left: 20px;
+}
+
+/* navigation links */
+#menu {
+    font-size: 120%;
+    letter-spacing: 4px;
+    color: white;
+}
+
+#menu, #logo {
+    line-height: 100px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover {
+    border-bottom: 1px solid #c36bc3;
+    color:#c36bc3;
+    font-style: italic;
+}
+
+.active {
+    border-bottom: 1px solid white;
+}
+
+#hero-image {
+    height: 800px;
+    width: 100%;
+    background: url(../images/hero_image_08_medium.jpg) no-repeat center center;
 }
