@@ -69,7 +69,7 @@ h2 {
 }
 
 #hero-image {
-    height: 750px;
+    height: 650px;
     width: 100%;
     background: url(../images/hero_image_08_medium.jpg) no-repeat center center;
     overflow: none;
@@ -94,9 +94,10 @@ h2 {
 }
 
 .metaverse-definition {
-    height: 500px;
-    padding: 50px;
+    height: 300px;
+    padding: 20px;
     text-align: center;
+
 }
 
 .metaverse-definition > div {
@@ -110,8 +111,10 @@ h2 {
     
     background-color: #c36bc3;
     padding: 20px;
-    margin: 30px;
+    margin: 10px;
     border-radius: 8%;
+}
 
-
+#introduction_video {
+    text-align: center;
 }
