@@ -61,7 +61,7 @@ a {
 }
 
 #menu a:hover {
-    border-bottom: 1px solid #c36bc3;
+    border-bottom: 1px solid #865f7b;
     color: #c36bc3;
     font-style: italic;
 }
@@ -118,13 +118,24 @@ a {
 
 /* navigation button on hero-image */
 
-.nav_button {
+.buttons {
     color: #fff;
     font-size: 18px;
     font-family: 'Source Sans Pro', sans-serif;
 
-    background-color: #c36bc3;
-    padding: 20px;
+    background-color: #865f7b;
+    padding: 20px 50px;
+    margin: 10px;
+    border-radius: 8%;
+}
+
+.buttons:hover {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+
+    background-color: #9d9d9d;
+    padding: 20px 50px;
     margin: 10px;
     border-radius: 8%;
 }
@@ -218,7 +229,7 @@ a {
     width: 100%;
     height: 25px;
     margin: 25px 200px 25px 30px;
-    border: 1px solid #c36bc3;
+    border: 1px solid #865f7b;
     border-radius: 3px;
 }
 
@@ -226,8 +237,8 @@ a {
     margin: 20px 10px 20px 30px;
 }
 
-.input_textlabel {
-    margin: 25px 200px 25px 30px;
+.input_textlabel, .signup_form > .buttons {
+    margin: 20px 200px 25px 30px;
 }
 
 /* footer */
