@@ -123,4 +123,20 @@ h2 {
 
 #introduction_video {
     text-align: center;
+    padding: 20px;
 }
+
+#introduction_video > iframe {
+    padding: 20px;
+}
+
+footer {
+    height: 150px;
+    background-color: black;
+}
+
+.footer_information {
+    color: white;
+    text-align: center;
+}
+
