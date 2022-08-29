@@ -41,7 +41,7 @@ a {
 
 #menu,
 #logo {
-    color: #fff;
+    color: #000;
     line-height: 100px;
     position: relative;
     top: 0;
@@ -191,7 +191,7 @@ footer {
     color: #fff;
 }
 
-.footer_information>ul {
+.footer_information > ul {
     display: inline-block;
     list-style-type: none;
 
