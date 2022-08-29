@@ -37,22 +37,22 @@
 
     </section>
 
-    <section class="signup_form">
-        <form method="POST" action="https://formdump.codeinstitute.net/">
-            <h2>Do you want to receive the latest Metaverse news and book reviews?</h2>
-            <h3>Fill in your information and become a Metaverse expert!</h3>
-            <label for="firstname">First Name</label>
+    <section>
+        <h2 class="signup_header">Do you want to receive the latest Metaverse news and book reviews?</h2>
+        <h3 class="signup_header">Fill in your information and become a Metaverse expert!</h3>
+        <form class="signup_form" method="POST" action="https://formdump.codeinstitute.net/">
+            <label for="firstname" class="input_textlabel">First Name</label>
             <input id="firstname" type="text" name="first_name" class="input_text" required>
-            <label for="lastname">Last Name</label>
+            <label for="lastname" class="input_textlabel">Last Name</label>
             <input id="lastname" type="text" name="last_name" class="input_text" required>
-            <label for="email">Email Address</label>
+            <label for="email" class="input_textlabel">Email Address</label>
             <input id="email" type="email" name="email_address" class="input_text" required>
             
-            <label for="books">Only Books</label>
+            <label for="books" class="input_radiolabel">Only Books</label>
             <input id="books" type="radio" name="update_preference" value="books" class="input_radio" required>
-            <label for="news">Only News</label>
+            <label for="news" class="input_radiolabel">Only News</label>
             <input id="news" type="radio" name="update_preference" value="news" class="input_radio" required>
-            <label for="both">Both</label>
+            <label for="both" class="input_radiolabel">Both</label>
             <input id="both" type="radio" name="update_preference" value="both" class="input_radio" required>
             
             <input type="submit" value="Submit!">

@@ -208,7 +208,7 @@ a {
     margin: 0 auto;
 }
 
-.signup_form h2, h3 {
+.signup_header {
     padding: 20px;
     text-align: center;
 }
@@ -222,11 +222,11 @@ a {
     border-radius: 3px;
 }
 
-.input_radio {
-    margin: 25px 200px 25px 30px;
+.input_radio, .input_radiolabel {
+    margin: 20px 10px 20px 30px;
 }
 
-.signup_form label {
+.input_textlabel {
     margin: 25px 200px 25px 30px;
 }
 
