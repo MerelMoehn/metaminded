@@ -193,6 +193,7 @@ a {
 }
 
 
+/* Sign Up Page */
 
 #signup_heroimage {
     height: 750px;
@@ -201,6 +202,26 @@ a {
     overflow: hidden;
 }
 
+.signup_form {
+    height: 750px;
+    max-width: 500px;
+    text-align: center;
+    display: block;
+}
+
+.signup_form h2 {
+    padding: 20px;
+}
+
+
+.input_text{
+    background: #9d9d9d;
+    width: 50%;
+    height: 25px;
+    margin: 25px;
+    border: 1px solid #c36bc3;
+    border-radius: 3px;
+}
 
 /* footer */
 

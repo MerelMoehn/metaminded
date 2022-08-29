@@ -37,9 +37,27 @@
 
     </section>
 
-    <section class="books_pagedescription">
-    <h2>Recommended Books to get familiar with the Metaverse</h2>
-  </section>
+    <section class="signup_form">
+        <form method="POST" action="https://formdump.codeinstitute.net/">
+            <h2>Do you want to receive the latest Metaverse news and book reviews?</h2>
+            <h3>Fill in your information and become a Metaverse expert!</h3>
+            <label for="firstname">First Name</label>
+            <input id="firstname" type="text" name="first_name" class="input_text" required>
+            <label for="lastname">Last Name</label>
+            <input id="lastname" type="text" name="last_name" class="input_text" required>
+            <label for="email">Email Address</label>
+            <input id="email" type="email" name="email_address" class="input_text" required>
+            
+            <label for="books">Only Books</label>
+            <input id="books" type="radio" name="update_preference" value="books" required>
+            <label for="news">Only News</label>
+            <input id="news" type="radio" name="update_preference" value="news" required>
+            <label for="both">Both</label>
+            <input id="both" type="radio" name="update_preference" value="both" required>
+            
+            <input type="submit" value="Submit!">
+        </form>
+    </section>
 
     <footer class="footer_information">
         <ul class="footer_left">
