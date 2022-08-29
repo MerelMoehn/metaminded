@@ -192,6 +192,16 @@ a {
     padding: 20px;
 }
 
+
+
+#signup_heroimage {
+    height: 750px;
+    width: 100%;
+    background: url(../images/nature_inmetaverse.jpg) no-repeat center center;
+    overflow: hidden;
+}
+
+
 /* footer */
 
 footer {
