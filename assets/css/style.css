@@ -69,9 +69,9 @@ h2 {
 }
 
 #hero-image {
-    height: 650px;
+    height: 750px;
     width: 100%;
-    background: url(../images/hero_image_08_medium.jpg) no-repeat center center;
+    background: url(../images/hero_image_10_medium.jpg) no-repeat center center;
     overflow: none;
 }
 
@@ -113,6 +113,12 @@ h2 {
     padding: 20px;
     margin: 10px;
     border-radius: 8%;
+}
+
+.metaverse_image{
+    height: 750px; 
+    width: 100%; 
+    object-fit: cover;
 }
 
 #introduction_video {
