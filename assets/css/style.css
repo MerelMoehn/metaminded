@@ -21,6 +21,11 @@ h2 {
     letter-spacing: 4px;
 }
 
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
 #logo {
     float: left;
     font-size: 310%;
@@ -143,8 +148,13 @@ h2 {
 
 /* Important Characteristics section */
 
-#meta_characteristics {
-    height: 500px;
+#characteristics_title {
+    text-align: center;
+    padding: 20px;
+}
+
+.meta_characteristics {
+    height: 750px;
     background-image: url(../images/hero_image_02.jpg);
     background-position: center bottom;
     background-repeat: no-repeat;
@@ -153,15 +163,17 @@ h2 {
     overflow: hidden;
 }
 
-#meta_characteristics > div {
-    color: #000;
+.meta_characteristics > div {
     background-color: rgba(255, 255, 255, .6);
     width: 25%;
     height: 750px;
     float: left;
-    text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
+
+    color: #000;
+    text-align: center;
+    padding-top: 200px;
 }
 
 /* footer */
@@ -212,7 +224,3 @@ footer {
     font-weight: 700;
 }
 
-.footer_center a {
-    text-decoration: none;
-    color: inherit;
-}
