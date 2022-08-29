@@ -10,6 +10,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     color: #000;
+    position: relative;
 }
 
 /* headings and logo */
@@ -27,7 +28,7 @@ h2 {
 }
 
 
-/* navigation links */
+/* navigation bar */
 #menu {
     font-size: 120%;
     letter-spacing: 4px;
@@ -64,6 +65,8 @@ h2 {
     border-bottom: 1px solid #fff;
 }
 
+/* hero image and overlay */
+
 #image_overlay {
     position: relative;
 }
@@ -93,6 +96,8 @@ h2 {
     bottom: 0;
 }
 
+/* metaverse definition */
+
 .metaverse-definition {
     height: 300px;
     padding: 20px;
@@ -100,49 +105,81 @@ h2 {
 
 }
 
-.metaverse-definition > div {
+.metaverse-definition>div {
     padding: 10px;
 }
+
+
+/* navigation button on hero-image */
 
 .nav_button {
     color: #fff;
     font-size: 18px;
     font-family: 'Source Sans Pro', sans-serif;
-    
+
     background-color: #c36bc3;
     padding: 20px;
     margin: 10px;
     border-radius: 8%;
 }
 
-.metaverse_image{
-    height: 750px; 
-    width: 100%; 
+.metaverse_image {
+    height: 750px;
+    width: 100%;
     object-fit: cover;
 }
+
+/* introduction video section */
 
 #introduction_video {
     text-align: center;
     padding: 20px;
 }
 
-#introduction_video > iframe {
+#introduction_video>iframe {
     padding: 20px;
 }
+
+
+/* Important Characteristics section */
+
+#meta_characteristics {
+    height: 500px;
+    background-image: url(../images/hero_image_02.jpg);
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;
+}
+
+#meta_characteristics > div {
+    color: #0000;
+    background-color: rgba(255, 255, 255, .6);
+    width: 25%;
+    height: 750px;
+    float: left;
+    text-align: center;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+/* footer */
 
 footer {
     height: 200px;
     width: 100%;
     background-color: #000;
-    position: fixed;
+    position: absolute;
     bottom: 0;
+
 }
 
 .footer_information {
     color: #fff;
 }
 
-.footer_information > ul{
+.footer_information>ul {
     display: inline-block;
     list-style-type: none;
 
@@ -152,10 +189,11 @@ footer {
     padding-top: 50px;
     width: 33%;
     float: left;
+    margin: 0 auto;
     text-align: center;
 }
 
-.footer_center{
+.footer_center {
     padding-top: 50px;
     width: 33%;
     margin: 0 auto;
@@ -166,7 +204,15 @@ footer {
     padding-top: 50px;
     width: 33%;
     float: right;
+    margin: 0 auto;
     text-align: center;
 }
 
+.footer_titles {
+    font-weight: 700;
+}
 
+.footer_center a {
+    text-decoration: none;
+    color: inherit;
+}
