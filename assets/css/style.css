@@ -124,7 +124,7 @@ h2 {
 }
 
 .metaverse_image {
-    height: 750px;
+    height: 500px;
     width: 100%;
     object-fit: cover;
 }
@@ -154,7 +154,7 @@ h2 {
 }
 
 #meta_characteristics > div {
-    color: #0000;
+    color: #000;
     background-color: rgba(255, 255, 255, .6);
     width: 25%;
     height: 750px;
