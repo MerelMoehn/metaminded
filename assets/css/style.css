@@ -80,7 +80,8 @@ a {
     height: 750px;
     width: 100%;
     background: url(../images/hero_image_10_medium.jpg) no-repeat center center;
-    overflow: none;
+    overflow: hidden;
+
 }
 
 #cover-text {
@@ -163,7 +164,7 @@ a {
     overflow: hidden;
 }
 
-.meta_characteristics > div {
+.meta_characteristics>div {
     background-color: rgba(255, 255, 255, .6);
     width: 25%;
     height: 750px;
@@ -174,6 +175,21 @@ a {
     color: #000;
     text-align: center;
     padding-top: 200px;
+}
+
+/* books page */
+
+#books_heroimage {
+    height: 750px;
+    width: 100%;
+    background: url(../images/swimmingpool_meta.jpg) no-repeat center center;
+    overflow: hidden;
+}
+
+.books_pagedescription {
+    height: 500px;
+    text-align: center;
+    padding: 20px;
 }
 
 /* footer */
@@ -191,7 +207,7 @@ footer {
     color: #fff;
 }
 
-.footer_information > ul {
+.footer_information>ul {
     display: inline-block;
     list-style-type: none;
 
@@ -223,4 +239,3 @@ footer {
 .footer_titles {
     font-weight: 700;
 }
-
