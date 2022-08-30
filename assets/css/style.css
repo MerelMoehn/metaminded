@@ -161,7 +161,7 @@ a {
 
 #characteristics_title {
     text-align: center;
-    padding: 20px;
+    padding: 50px 20px 20px 20px;
 }
 
 .meta_characteristics {
@@ -204,6 +204,7 @@ a {
     width: 100%;
     background: url(../images/swimmingpool_meta.jpg) no-repeat center center;
     overflow: hidden;
+
 }
 
 .books_pagedescription {
@@ -219,6 +220,10 @@ a {
 
 .bookstoread img {
     object-fit: cover;
+}
+
+.bookrow_2 {
+    padding-top: 20px;
 }
 
 
