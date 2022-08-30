@@ -215,15 +215,20 @@ a {
     padding: 20px;
 }
 
-.books_toread {
+.books_grid {
     padding-top: 40px;
     display: grid;
     grid-auto-flow: column;
-    grid-auto-columns: 1fr;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px 5px;
 }
 
-.books_toread ul {
+.books_grid ul {
     list-style-type: none;
+}
+
+.books_grid img {
+    object-fit: cover;
 }
 
 /* Sign Up Page */
@@ -318,6 +323,11 @@ footer {
 .character_item {
     padding: 0 20px 0 20px;
 }
+
+.books_grid {
+    grid-auto-columns: repeat(2, 1fr);
+}
+
 
  }
 /* for screen size from 800px wide and down  */
