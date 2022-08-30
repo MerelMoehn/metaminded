@@ -178,7 +178,6 @@ a {
     display: grid;
     grid-auto-flow: column;
     grid-auto-columns: 1fr;
-
 }
 
 .character_item {
@@ -308,6 +307,15 @@ footer {
 .menu {
     flex-direction: column;
 } 
+
+.meta_characteristics{
+    grid-auto-flow: row;
+}
+
+.character_item {
+    padding: 0 20px 0 20px;
+}
+
  }
 /* for screen size from 800px wide and down  */
 @media screen and (max-width: 800px) {
@@ -319,5 +327,4 @@ footer {
         display: block;
         padding: 5px;
     }
-    
     }
