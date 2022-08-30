@@ -45,7 +45,6 @@ a {
     line-height: 100px;
     position: relative;
     top: 0;
-    z-index: 1;
 }
 
 #menu li {
@@ -173,19 +172,24 @@ a {
     background-size: cover;
     width: 100%;
     overflow: hidden;
+
+    display: flex;
+    flex-direction: row;
 }
 
 .meta_characteristics>div {
     background-color: rgba(255, 255, 255, .6);
-    width: 25%;
-    height: 750px;
-    float: left;
+    color: #000;
     border: 2px solid white;
     box-sizing: border-box;
 
-    color: #000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     text-align: center;
-    padding-top: 200px;
+
 }
 
 /* books page */
