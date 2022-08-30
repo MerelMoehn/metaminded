@@ -204,8 +204,12 @@ a {
 
 .bookstoread {
     text-align: center;
-    margin: 0 auto;
+    margin: 40px auto 200px;
     padding: 40px;
+}
+
+.bookstoread img {
+    object-fit: cover;
 }
 
 
