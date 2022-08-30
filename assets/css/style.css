@@ -199,6 +199,7 @@ a {
 }
 /* books page */
 
+
 #books_heroimage {
     height: 750px;
     width: 100%;
@@ -212,20 +213,16 @@ a {
     padding: 20px;
 }
 
-.bookstoread {
-    text-align: center;
-    margin: 40px auto 200px;
-    padding: 40px;
+.books_toread {
+    padding-top: 40px;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
 }
 
-.bookstoread img {
-    object-fit: cover;
+.books_toread ul{
+  list-style-type: none;  
 }
-
-.bookrow_2 {
-    padding-top: 20px;
-}
-
 
 /* Sign Up Page */
 
