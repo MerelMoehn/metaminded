@@ -27,39 +27,39 @@ a {
 }
 
 #logo {
-    float: left;
     font-size: 310%;
     margin-left: 20px;
 }
 
-
-/* navigation bar */
-#menu {
-    font-size: 120%;
-    letter-spacing: 4px;
-}
-
-#menu,
+.menu,
 #logo {
     color: #000;
-    line-height: 100px;
-    position: relative;
     top: 0;
 }
 
-#menu li {
-    float: right;
+/* navigation bar */
+.menu {
+    font-size: 120%;
+    letter-spacing: 4px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_menu li {
     list-style-type: none;
     margin-right: 20px;
     text-transform: uppercase;
+    display: inline-block;
 }
 
-#menu a {
+.nav_menu a {
     text-decoration: none;
     color: inherit;
 }
 
-#menu a:hover {
+.nav_menu a:hover {
     border-bottom: 1px solid #865f7b;
     color: #865f7b;
     font-style: italic;
