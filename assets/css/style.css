@@ -218,7 +218,6 @@ a {
 .books_grid {
     padding-top: 40px;
     display: grid;
-    grid-auto-flow: column;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px 5px;
 }
@@ -278,7 +277,6 @@ footer {
     height: 200px;
     width: 100%;
     background-color: #000;
-    /* position: absolute; */
     bottom: 0;
 
 }
@@ -325,7 +323,7 @@ footer {
 }
 
 .books_grid {
-    grid-auto-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
 
 
@@ -343,5 +341,9 @@ footer {
 
     #cover-text {
         padding: auto;
+    }
+
+    .books_grid {
+        grid-template-columns: repeat(1, 1fr);
     }
     }
