@@ -198,9 +198,14 @@ a {
 }
 
 .books_pagedescription {
-    height: 500px;
     text-align: center;
     padding: 20px;
+}
+
+.bookstoread {
+    text-align: center;
+    margin: 0 auto;
+    padding: 40px;
 }
 
 
