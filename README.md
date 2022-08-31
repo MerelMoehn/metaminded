@@ -48,9 +48,9 @@ Frequent users
 * UnSplash.io: I used Unsplash.io as image library. All images are from the artis Mo.
 
 ## Testing
-The W3C Markup Vallidator and W3C CCS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
--> Results
--> Results
+The W3C Markup Validator and W3C CCS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+-> Results CSS validator: [http://jigsaw.w3.org/css-validator/validator$link]
+-> Results Markup Validator:
 
 **Testing the User Stories from User Experience (UX) section**
 
