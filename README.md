@@ -3,14 +3,36 @@
 #Milestone Project 1
 Welcome USER_NAME,
 
+In this document I will explain the approach and reason behind the website called MetaMinded. The purpose of this website is to give the user an introduction of the Metaverse: a first glance of what it is, and can be. To accomplish this the website includes a definition, an introduction video, recommended books, and a sign up page to get an update whenever there is a new book available. The user in mind is someone that does not know anything about the Metaverse and start learning more about it. This website is responsive and thus can be accessed via desktop, tablet and mobile phone.
+
+![Website shown on different screens](assets/images/metaminded_website.png)
 
 The last update to this file was: **September 1, 2021**
 
 ## Pictures and live link
+The live project can be viewed by clicking this link.
 
 ## User Experience (UX)
 **User stories (first time, returning, frequent)**
+The user stories that are at the base of this website are devided into three categories:
+
+First time users
+* As a first time user I want to understand what this website is about.
+* As a first time user I want to be able to navigate through the site to see the different content.
+* As a first time user I want to be able to learn more about this website, its activities and goals by reviewing its social media.
+
+Returning users
+* As a returning user I want to gain more knowledge of the Metaverse at a basic level.
+* As a returning user I want to know how I can gain more knowledge about the Metaverse when leaving this website.
+* As a returning user I want to know how I can get in touch with the person behind this website to ask questions.
+
+Frequent users
+* As a frequent user I want to see if any new books are added to the website by either visiting the website or sign up for updates.
+
+
 **Design**
+
+
 
 ## Technologies Used
 **Languages Used**

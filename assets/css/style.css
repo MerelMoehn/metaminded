@@ -254,8 +254,7 @@ a {
 
 .signup_form {
     height: 500px;
-    width: 500px;
-    margin: 0 auto;
+    width: auto;
 }
 
 .signup_header {
@@ -265,11 +264,16 @@ a {
 
 .input_text {
     background: #9d9d9d;
-    width: 100%;
+    width: 50%;
+    display: block;
     height: 25px;
-    margin: 10px 0 25px 0;
+    margin: 15px auto;
     border: 1px solid #865f7b;
     border-radius: 3px;
+}
+
+.input_textlabel {
+    text-align: center;
 }
 
 .input_radio,
@@ -297,8 +301,7 @@ footer {
 .footer_information {
     color: #fff;
     display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: 1fr;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .footer_information>ul {
@@ -361,14 +364,28 @@ footer {
         padding: auto;
     }
 
+    .metaverse-definition {
+        height: 350px;
+        padding: 40px 20px 40px 20px;    
+    }
+
     .books_grid {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .footer_information {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    footer {
+        height: 300px;
+    }
+
     }
 
     /* for screen size from 450px wide and down */
 
-    @media screen and (max-width: 450px) {
+    @media screen and (max-width: 480px) {
         #logo {
             font-size: 190%;
         }
@@ -376,4 +393,13 @@ footer {
         #cover-text {
             font-size: 90%;
     }
+
+    .metaverse-definition {
+        height: 400px;
+        padding: 40px 20px 40px 20px;    
+    }
+
+    
+
+
 }
