@@ -36,16 +36,16 @@ Frequent users
 
 ## Technologies Used
 **Languages Used**
-HTML5
-CSS
+* HTML5
+* CSS
 
 ## Frameworks, Libraries & Programs Used
-Hover.css:
-Google Fonts
-Font Awesome
-Git
-GitHub
-UnSplash.io
+* Hover.css: I used hover to give the user feedback when hovering over the menu items and buttons.
+* Google Fonts: I used Google Fonts to include two types of fonts: Playfair Display and Sources Sans Pro.
+* Font Awesome: I used Font Awesome for icons which are used on the Metaverse Characteristic section on index.html.
+* Git: 
+* GitHub: 
+* UnSplash.io: I used Unsplash.io as image library. All images are from the artis Mo.
 
 ## Testing
 The W3C Markup Vallidator and W3C CCS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
