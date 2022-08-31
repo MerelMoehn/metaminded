@@ -151,7 +151,7 @@ a {
 
 #introduction_video {
     text-align: center;
-    padding: 20px 20px 40px 20px;
+    padding: 20px 40px 40px 40px;
 }
 
 .introduction_text {
@@ -343,6 +343,10 @@ footer {
  }
 /* for screen size from 800px wide and down  */
 @media screen and (max-width: 800px) {
+    #logo {
+        margin-left: 0;
+    }
+
     .nav_menu {
         padding: 10px;
     } 
@@ -362,9 +366,10 @@ footer {
     }
     }
 
-    @media screen and (max-width: 400px) {
+    /* for screen size from 450px wide and down */
+
+    @media screen and (max-width: 450px) {
         #logo {
             font-size: 210%;
-            margin-left: 20px;
         }
     }
