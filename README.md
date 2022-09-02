@@ -7,10 +7,10 @@ In this document I will explain the approach and reason behind the website calle
 
 ![Website shown on different screens](assets/images/metaminded_website.png)
 
-The last update to this file was: **September 1, 2021**
+The last update to this file was: **September 3, 2022**
 
 ## Pictures and live link
-The live project can be viewed by clicking this link.
+The live project can be viewed by clicking this link: https://merelmoehn.github.io/metaminded/
 
 ## User Experience (UX)
 **User stories (first time, returning, frequent)**
@@ -33,18 +33,27 @@ Frequent users
 **Design**
 The design of the website is kept minimalistic to ensure the focus went to the content and the artistic images to show how the Metaverse can look like. A lot of people might think it will look like a video game, so the purpose of these large and artistic images is to show them differently.
 
-The colors used for the website are black, white, and a darkish purple (#865f7b.
+The colors used for the website are black, white, and a darkish purple (#865f7b).
 
 **Features**
 
+![Image of navigation functionality](assets/images/navigation.png)
+* Navigation: this functionality provides the user to navigate through the different site pages. The user gets feedback via underlining and italic font of the current active page.
 
-* Navigation
-* Introduction video
-* Characteristics
-* Book library
-* Sign Up
-* Contact Links
+![Image of introduction video](assets/images/introduction_video.png)
+* Introduction video: this functionality provides the user with a Youtube video that introduces the Metaverse and relevant aspects. The user is in control of the Youtube video.
 
+![Image of characteristics section](assets/images/characteristics.png)
+* Characteristics: this functionality provides the user with an overview of the four most important aspects of the Metaverse.
+
+![Image of book library](assets/images/recommended_books.png)
+* Book library: this functionality provides the user with an overview of the recommended books to read when wanting to learn about the Metaverse.
+
+![Image of sign up page](assets/images/signup_form.png)
+* Sign Up: this functionality gives the user the opportunity to enter his details so he or she can get email updates about new books.
+
+![Image of footer element](assets/images/Footer.png)
+* Contact Links / footer: this functionality gives the user the opportunity to get in contact with the site creator, visit the social media accounts and see the site map.
 
 
 ## Technologies Used
@@ -56,8 +65,8 @@ The colors used for the website are black, white, and a darkish purple (#865f7b.
 * Hover.css: I used hover to give the user feedback when hovering over the menu items and buttons.
 * Google Fonts: I used Google Fonts to include two types of fonts: Playfair Display and Sources Sans Pro.
 * Font Awesome: I used Font Awesome for icons which are used on the Metaverse Characteristic section on index.html.
-* Git: 
-* GitHub: 
+* Git: I used Git for the version control of my code.
+* GitHub: I used GitHub for managing my repositories.
 * UnSplash.io: I used Unsplash.io as image library. All images are from the artis Mo.
 
 ## Testing
@@ -69,23 +78,36 @@ The W3C Markup Validator and W3C CCS Validator Services were used to validate ev
 
 
 **Bugs found and solved**
+* Positioning library: during testing my website I found that my book library was not responsive. That's why I changed it from a table to a Grid, which allowed me to make it responsive.
+* Responsiveness iframe: during testing my website I found that the iframe (introduction video) was not responsives. I researched online and found out how to make it responsive. However, then it covered the whole page. I want it to be a max height and width but also to be responsive. That is why I have kept the max height and width in the iframe declaration (in HTML) and put the responsiveness code in the media queries.
 
 
 ## Deployment
 **GitHub Pages**
 The project was deployed to GitHub Pages using the following steps:
+1. I pushed my final code via the terminal after finishing the project.
+2. I navigated on GitHub to 'Settings'
+3. After Settings I navigated to GitHub Pages
+4. There I selected 'Deploy from Branch'
+5. Then I selected 'Main/(root)' branch
 
 
 ## Credits
 **Code**
+* Some of the code is based on the examples of the Love Running Project
+* The code for making my iframe responsives I got from StackOverflow [Making iframe Responsive](https://stackoverflow.com/questions/17838607/making-an-iframe-responsive)
+
 **Content**
+* The definition of the Metaverse is based on the Metaverse Wikipedia site
+
 **Media**
-All written conte
-All images come from UnSplash.io from the artist Mo.
+* All images come from UnSplash.io from the artist Mo.
+
 **Acknowledgements**
-I thank the tutors for their guidance
-I thank my mentor for his review and feedback on my project
-I thank my fellow students for providing me with suggestions via Slack
+* I want to thank the tutors for guiding me especially regarding some positioning challenges
+* I thank my mentor for his review and feedback on my project
+* I thank my fellow students for providing me with suggestions via Slack
+I want to CodeInstitute for the modules that made me capable of writing this code* 
 ---
 
 Thank you!
