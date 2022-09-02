@@ -42,8 +42,6 @@ a {
     font-size: 120%;
     letter-spacing: 4px;
 
-    /* max-width: 1800px;
-    width: 90%; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -112,16 +110,13 @@ a {
     height: 300px;
     padding: 20px;
     text-align: center;
-
 }
 
 .metaverse-definition>div {
     padding: 10px;
 }
 
-
 /* navigation button on hero-image */
-
 .buttons {
     color: #fff;
     font-size: 18px;
@@ -151,7 +146,6 @@ a {
 }
 
 /* introduction video section */
-
 #introduction_video {
     text-align: center;
     padding: 20px 20px 40px 20px;
@@ -161,9 +155,7 @@ a {
     padding-bottom: 40px;
 }
 
-
 /* Important Characteristics section */
-
 #characteristics_title {
     text-align: center;
     padding: 50px 20px 20px 20px;

@@ -80,7 +80,8 @@ The W3C Markup Validator and W3C CCS Validator Services were used to validate ev
 **Bugs found and solved**
 * Positioning library: during testing my website I found that my book library was not responsive. That's why I changed it from a table to a Grid, which allowed me to make it responsive.
 * Responsiveness iframe: during testing my website I found that the iframe (introduction video) was not responsives. I researched online and found out how to make it responsive. However, then it covered the whole page. I want it to be a max height and width but also to be responsive. That is why I have kept the max height and width in the iframe declaration (in HTML) and put the responsiveness code in the media queries.
-
+* Responsiveness book library: after testing my code it became clear that my book library was not responsing to my responsiveness code. After a tutor session it became clear I needed to adjusted grid-template-columns in my media queries to grid-auto-flow.
+* Aria-labels: After putting my code in the W3C HTML validator I got a warning regarding misuse of ARIA labels. I removed them in my background images' div, which solved the issue.
 
 ## Deployment
 **GitHub Pages**
@@ -90,7 +91,6 @@ The project was deployed to GitHub Pages using the following steps:
 3. After Settings I navigated to GitHub Pages
 4. There I selected 'Deploy from Branch'
 5. Then I selected 'Main/(root)' branch
-
 
 ## Credits
 **Code**
@@ -107,7 +107,7 @@ The project was deployed to GitHub Pages using the following steps:
 * I want to thank the tutors for guiding me especially regarding some positioning challenges
 * I thank my mentor for his review and feedback on my project
 * I thank my fellow students for providing me with suggestions via Slack
-I want to CodeInstitute for the modules that made me capable of writing this code* 
+* I want to CodeInstitute for the modules that made me capable of writing this code
 ---
 
 Thank you!
