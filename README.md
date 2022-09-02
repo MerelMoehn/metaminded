@@ -36,6 +36,8 @@ The design of the website is kept minimalistic to ensure the focus went to the c
 The colors used for the website are black, white, and a darkish purple (#865f7b.
 
 **Features**
+
+
 * Navigation
 * Introduction video
 * Characteristics
