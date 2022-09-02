@@ -31,6 +31,17 @@ Frequent users
 
 
 **Design**
+The design of the website is kept minimalistic to ensure the focus went to the content and the artistic images to show how the Metaverse can look like. A lot of people might think it will look like a video game, so the purpose of these large and artistic images is to show them differently.
+
+The colors used for the website are black, white, and a darkish purple (#865f7b.
+
+**Features**
+* Navigation
+* Introduction video
+* Characteristics
+* Book library
+* Sign Up
+* Contact Links
 
 
 
@@ -54,7 +65,9 @@ The W3C Markup Validator and W3C CCS Validator Services were used to validate ev
 
 **Testing the User Stories from User Experience (UX) section**
 
+
 **Bugs found and solved**
+
 
 ## Deployment
 **GitHub Pages**
