@@ -82,7 +82,6 @@ a {
     width: 100%;
     background: url(../images/hero_image_10_medium.jpg) no-repeat center center;
     overflow: hidden;
-
 }
 
 #cover-text {
@@ -242,7 +241,7 @@ a {
 #signup_heroimage {
     height: 750px;
     width: 100%;
-    background: url(../images/nature_inmetaverse.jpg) no-repeat center center;
+    background: url(../images/nature_inmetaverse.jpg) no-repeat center left;
     overflow: hidden;
 }
 
@@ -327,6 +326,13 @@ footer {
 .menu {
     flex-direction: column;
 } 
+#hero-image {
+    height: 650px;
+}
+
+#cover-text {
+    height: 200px;
+}
 
 .meta_characteristics{
     grid-auto-flow: row;
@@ -358,7 +364,12 @@ footer {
     }
 
     #hero-image {
-        height: 500px;
+        height: 600px;
+        background: url(../images/hero_image_10_medium.jpg) no-repeat center center;
+    }
+
+    #cover-text {
+        height: 200px;
     }
     .metaverse-definition {
         height: 350px;
