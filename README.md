@@ -75,6 +75,18 @@ The W3C Markup Validator and W3C CCS Validator Services were used to validate ev
 -> Results Markup Validator:
 
 **Testing the User Stories from User Experience (UX) section**
+First time users
+* As a first time user I want to understand what this website is about: upon entering the site the user immediately sees the introduction text on the hero image introducing the topic.
+* As a first time user I want to be able to navigate through the site to see the different content: the user has the ability to use the navigation menu, scroll down, use the site map in the footer, or the call to action button.
+* As a first time user I want to be able to learn more about this website, its activities and goals by reviewing its social media: the user can access the social media accounts via the links in the footer.
+
+Returning users
+* As a returning user I want to gain more knowledge of the Metaverse at a basic level: the user is presented with a definition, introduction video, characteristics section and book suggestions to gain more knowledge about the Metaverse.
+* As a returning user I want to know how I can gain more knowledge about the Metaverse when leaving this website: the user is presented with a book selection which he can read after leaving the site, and a sign up page to get updates about additional information.
+* As a returning user I want to know how I can get in touch with the person behind this website to ask questions: the user can see the contact information of the website creator in the footer.
+
+Frequent users
+* As a frequent user I want to see if any new books are added to the website by either visiting the website or sign up for updates: the user can give his contact information on the sign up page to get additional information about newly released books.
 
 
 **Bugs found and solved**
