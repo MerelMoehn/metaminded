@@ -333,6 +333,11 @@ footer {
 .menu {
     flex-direction: column;
 } 
+
+.nav_menu li {
+    margin-right: 0;
+}
+
 #hero-image {
     height: 610px;
 }
@@ -372,15 +377,8 @@ footer {
         padding: 10px;
     } 
 
-    .nav_menu li {
-        display: block;
-        padding: 5px;
-        margin-right: 0;
-    }
-
     #hero-image {
         height: 580px;
-        background: url(../images/hero_image_10_medium.jpg) no-repeat center center;
     }
 
     #cover-text {
@@ -429,15 +427,31 @@ footer {
     /* for screen size from 450px wide and down */
 
     @media screen and (max-width: 480px) {
-        #logo {
-            font-size: 190%;
-        }
+    #logo {
+        font-size: 190%;
+    }
 
-        #cover-text {
-            font-size: 90%;
+    #hero-image {
+        height: 500px;
+    }
+
+    #cover-text {
+        font-size: 90%;
     }
 
     .metaverse-definition {
-        height: 400px; 
+        height: 500px; 
+    }
+
+    .meta_characteristics {
+        height: 600px;
+    }
+
+    #books_heroimage {
+        height: 500px;
+    }
+
+    #signup_heroimage {
+        height: 500px;
     }
 }

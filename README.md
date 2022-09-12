@@ -72,7 +72,8 @@ The colors used for the website are black, white, and a darkish purple (#865f7b)
 ## Testing
 The W3C Markup Validator and W3C CCS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 -> Results CSS validator: [http://jigsaw.w3.org/css-validator/validator$link]
--> Results Markup Validator:
+-> Results Markup Validator: all pages pass through the validator without errors and warnings.
+
 
 **Testing the User Stories from User Experience (UX) section**
 First time users
