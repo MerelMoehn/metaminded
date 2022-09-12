@@ -325,6 +325,10 @@ footer {
 }
 /* for screen size from 1200px wide and down  */
  @media screen and (max-width: 1200px) {
+ #logo{
+    margin-left: 0;
+ }
+
 .nav_menu {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -333,10 +337,6 @@ footer {
 .menu {
     flex-direction: column;
 } 
-
-.nav_menu li {
-    margin-right: 0;
-}
 
 #hero-image {
     height: 610px;
@@ -369,13 +369,9 @@ footer {
  }
 /* for screen size from 800px wide and down  */
 @media screen and (max-width: 800px) {
-    #logo {
-        margin-left: 0;
-    }
-
     .nav_menu {
-        padding: 10px;
-    } 
+        padding: 10px 0;
+    }  
 
     #hero-image {
         height: 580px;
